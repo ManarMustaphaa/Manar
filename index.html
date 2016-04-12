@@ -1,23 +1,54 @@
 <html>
-<body background=red>
-<script>
-function myFunction() {
- if(document. form name. name. value=="yasmeen" & &  document. form name. password. value =="1234") 
- {window. open ("www.facebook.com ") }
+
+<head>
+<title>welcome</title>
+
+<script type="text/javascript">
+
+function myFunction(welcome) {
+ 
+if(document.welcome.userName.value=="Manar" && document.welcome.password.value =="00000") 
+
+ {
+   window.open ("http://www.w3schools.com/jsref/prop_text_value.asp")
+   }
+
  else
- window. alert("error ")
+ window.alert("error ")
  
   }
 
+
 </script>
-Username: <input type="text" name="firstname"  size=“10”maxlength=“50”> 
-<br />
-<br />
-<br />
-Password<input type="password" name="password">
+
+</head>
+
+<body bgcolor="pink">
+ 
+ <form name="welcome">
+   
+  Username:  <input type="text" name="userName" >
+
 <br/>
-<br />
-<br />
-<input type="submit" value="Submit"  onclick = "myFunction()"/> 
+
+<br/>
+
+<br/>
+  Password:  <input type="Password" name="password" >
+ 
+<br/>
+
+<br/>
+ 
+
+<br/>
+  <button type="button" OnClick="myFunction()">submit</button>
+
+  
+  
+
+</form>
+
 </body>
+
 </html>
